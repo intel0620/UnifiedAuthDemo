@@ -1,0 +1,39 @@
+{
+  "InstagramLogin": {
+    "ClientId": "156756756756980",
+    "ClientSecret": "d884f8f442dfgdfgdgdfgdg63e77d9f0f8f5",
+    "RedirectUri": "https://xxx.com.tw/Home/InstagramCallback",
+    "Scope": "user_profile,user_media"
+  },
+  "DropboxLogin": {
+    "ClientId": "eqd9x4steryererte3ey",
+    "ClientSecret": "jkgjerterterterterthf4f",
+    "RedirectUri": "https://xxx.com.tw/Home/DropboxCallback",
+    "Scope": ""
+  },
+  "TwitterLogin": {
+    "ClientId": "bVdererwrwretreteryerrw6MTpjaQ",
+    "ClientSecret": "wvq6bTbZE6fgfdjti3oGokyui0Z6JuuyiuiX-IIp4",
+    "RedirectUri": "https://xxx.com.tw/Home/TwitterCallback",
+    "Scope": "tweet.read users.read follows.read offline.access"
+  },
+  "FaceBookLogin": {
+    "ClientId": "66656476730321",
+    "ClientSecret": "15861345359890a91ebcfdafafsd0ba66f",
+    "RedirectUri": "https://xxx.com.tw/Home/FaceBookCallback",
+    "Scope": "public_profile email"
+  },
+  "GoogleLogin": {
+    "ClientId": "7855dsfs433599732-ndddm3453456s71a34533453535com",
+    "ClientSecret": "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b8",
+    "RedirectUri": "https://xxx.com.tw/Home/GoogleCallback",
+    "Scope": "openid email profile"
+  },
+  "LineLogin": {
+    "ClientId": "1664544354036",
+    "ClientSecret": "0a0150345346aff3245032439f2347a89f7",
+    "RedirectUri": "https://xxx.com.tw/Home/LineLoginCallback",
+    "Scope": "openid email profile"
+  }
+
+}

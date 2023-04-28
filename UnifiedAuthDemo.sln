@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnifiedAuthDemo", "UnifiedAuthDemo\UnifiedAuthDemo.csproj", "{113F8950-3CB3-4145-97B3-010DD896A655}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnifiedAuthLibrary", "..\UnifiedAuthLibrary\UnifiedAuthLibrary.csproj", "{F7E0A1B4-3EC4-4669-B5E8-C572B47DEB23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{113F8950-3CB3-4145-97B3-010DD896A655}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{113F8950-3CB3-4145-97B3-010DD896A655}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{113F8950-3CB3-4145-97B3-010DD896A655}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{113F8950-3CB3-4145-97B3-010DD896A655}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7E0A1B4-3EC4-4669-B5E8-C572B47DEB23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7E0A1B4-3EC4-4669-B5E8-C572B47DEB23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7E0A1B4-3EC4-4669-B5E8-C572B47DEB23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7E0A1B4-3EC4-4669-B5E8-C572B47DEB23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8CBA42E4-F679-4AF9-A3E3-628C7F9AF6E1}
+	EndGlobalSection
+EndGlobal

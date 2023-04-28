@@ -1,0 +1,61 @@
+﻿@{
+    ViewData["Title"] = "UnifiedAuthDemo";
+}
+
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+
+        <div class="col s12 m6 offset-m3 center-align">
+            <a class="oauth-container btn darken-4 white black-text" href="@Url.Action("FaceBookLogin", "Home")" style="text-transform:none;width:80%">
+                <i class="fa-brands fa-facebook fa-2x mr-2"></i> Sigin in with FaceBook
+            </a>
+        </div>
+
+        <br />
+        <div class="col s12 m6 offset-m3 center-align">
+        <a class="oauth-container btn darken-4 white black-text" href="@Url.Action("GoogleLogin", "Home")" style="text-transform:none;width:80%">
+                <i class="fa-brands fa-google fa-2x mr-2"></i> Sigin in with Google
+            </a>
+        </div>
+
+        <br />
+
+        <div class="col s12 m6 offset-m3 center-align">
+        <a class="oauth-container btn darken-4 white black-text" href="@Url.Action("LineLogin", "Home")" style="text-transform:none;width:80%">
+                <i class="fa-brands fa-line fa-2x mr-2"></i> Sigin in with Line
+            </a>
+        </div>
+
+        <br />
+
+        <div class="col s12 m6 offset-m3 center-align">
+        <a class="oauth-container btn darken-4 white black-text" href="@Url.Action("TwitterLogin", "Home")" style="text-transform:none;width:80%">
+                <i class="fa-brands fa-twitter fa-2x mr-2"></i> Sigin in with Twitter
+            </a>
+        </div>
+
+        <br />
+
+        <div class="col s12 m6 offset-m3 center-align">
+        <a class="oauth-container btn darken-4 white black-text" href="@Url.Action("DropboxLogin", "Home")" style="text-transform:none;width:80%">
+            <i class="fa-brands fa-dropbox fa-2x mr-2"></i> Sigin in with Dropbox
+            </a>
+        </div>
+
+    <br />
+
+    <div class="col s12 m6 offset-m3 center-align">
+        <a class="oauth-container btn darken-4 white black-text" href="@Url.Action("InstagramLogin", "Home")" style="text-transform:none;width:80%">
+            <i class="fa-brands fa-instagram fa-2x mr-2"></i> Sigin in with Instagram
+        </a>
+    </div>
+    </div>
+
+
+
+<!--Google Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+<!--Google Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
