@@ -1,0 +1,39 @@
+{
+  "InstagramLogin": {
+    "ClientId": "1423740411527980",
+    "ClientSecret": "d884f8f4423831d29bf63e77d9f0f8f5",
+    "RedirectUri": "https://yfpdemo.azurewebsites.net/Home/InstagramCallback",
+    "Scope": "user_profile,user_media"
+  },
+  "DropboxLogin": {
+    "ClientId": "eqd9x489ksre3ey",
+    "ClientSecret": "jkgj9kqs2txhf4f",
+    "RedirectUri": "https://yfpdemo.azurewebsites.net/Home/DropboxCallback",
+    "Scope": ""
+  },
+  "TwitterLogin": {
+    "ClientId": "bVd0VHhySlNtcmRCcGJ2b3F5TlQ6MTpjaQ",
+    "ClientSecret": "wvq6bTbZE66MNjAz9TI81QkixaD-3oGokB1N0Z6JujBOX-IIp4",
+    "RedirectUri": "https://yfpdemo.azurewebsites.net/Home/TwitterCallback",
+    "Scope": "tweet.read users.read follows.read offline.access"
+  },
+  "FaceBookLogin": {
+    "ClientId": "666070005530321",
+    "ClientSecret": "1586153759890a91ebcfde414f0ba66f",
+    "RedirectUri": "https://yfpdemo.azurewebsites.net/Home/FaceBookCallback",
+    "Scope": "public_profile email"
+  },
+  "GoogleLogin": {
+    "ClientId": "785569399732-ndddm6s71a38t37sg3k947gmsvdh1nbs.apps.googleusercontent.com",
+    "ClientSecret": "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",
+    "RedirectUri": "https://yfpdemo.azurewebsites.net/Home/GoogleCallback",
+    "Scope": "openid email profile"
+  },
+  "LineLogin": {
+    "ClientId": "1660965036",
+    "ClientSecret": "0a01503c11ced48026aff5039f7a89f7",
+    "RedirectUri": "https://yfpdemo.azurewebsites.net/Home/LineLoginCallback",
+    "Scope": "openid email profile"
+  }
+
+}

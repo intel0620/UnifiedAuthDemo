@@ -1,0 +1,18 @@
+﻿@model UserInfo
+
+
+<div class="text-center">
+    @if (Model.pictureUrl.Length > 0)
+    {
+      <img src="@Model.pictureUrl" class="rounded text-center" width="128" height="128" />
+    }
+  
+    <div class="card-body">
+        <p>UserId(sub): @Model.userId</p>
+        <h5>Hi, @Model.displayName</h5>
+        <p>Your email address is: @Model.email</p>
+        <p>@ViewBag.LoginType</p>
+    </div>
+ </div>
+
+
